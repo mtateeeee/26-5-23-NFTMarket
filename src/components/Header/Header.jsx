@@ -12,7 +12,8 @@ const HeaderStyled = styled.div`
   width: 100%;
   height: 56px;
   display: flex;
-  justify-content: space-between ;
+  gap: 160px;
+  //justify-content: space-between ;
   background-color: aqua ;
   padding:32px ;
 `;

@@ -42,7 +42,7 @@ const AppWrapper = styled.div`
     width: 350px;
     padding-top: 60px;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     /* flex-wrap: wrap; */
   }
 
@@ -75,11 +75,12 @@ const AppWrapper = styled.div`
 `;
 
 const Rectangle = styled.div`
-  width: 684px;
+  width: 765px;
   height:354px;
   margin-left: 32px;
   border-radius: 12px;
   background-image:url(${Rectangle13});
+  background-size: cover;
 `
 const Rectangletxt = styled.div`
   display: flex;
@@ -107,7 +108,7 @@ const Rectanglebtn = styled.div`
 `
 const IMGNFT = styled.div`
   display: flex;
-  width: 735px;
+  width: 935px;
   flex-wrap: wrap;
   flex-direction: row;
 
@@ -116,7 +117,7 @@ const TREND = styled.div`
   display: flex;
   padding-left: 32px;
   padding-bottom: 30px;
-  gap: 160px;
+  gap: 250px;
 `
 const TREND1 = styled.div`
   display: flex;
@@ -192,6 +193,13 @@ text-align: right;
 font-feature-settings: 'salt' on;
 color: #747475;
 `
+const CARD=styled.div`
+  background-color: white;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+`
 const Home = () => {
   return (
     <PrimaryLayout>
@@ -257,7 +265,6 @@ const Home = () => {
           <TREND>
             <P1>
             Trending Auctions
-
             </P1>
 
             <TREND1>
@@ -282,10 +289,18 @@ const Home = () => {
           </TREND>
 
           <IMGNFT>
+          <CARD>
           <CardNFT img ={Rectangle8}  time={Frame42}  namecard="Ape In Love"  like="21,5K Likes"  avt={Ellipse61} username="@jordan_"  brand="Current Bid"  price="9.12" ></CardNFT>
+          </CARD>
+          <CARD>
           <CardNFT img ={Rectangle9}  time={Frame42}  namecard="Smilling Ape"  like="21,5K Likes"  avt={Ellipse63} username="@teressa Jordan"  brand="Current Bid"  price="8.4" ></CardNFT>
+          </CARD>
+          <CARD>
           <CardNFT img ={Rectangle9}  time={Frame42}  namecard="Ape In Love"  like="21,5K Likes"  avt={Ellipse66} username="@erricsonsam"  brand="Current Bid"  price="7.5" ></CardNFT>
+          </CARD>
+          <CARD>
           <CardNFT img ={Rectangle8}  time={Frame42}  namecard="Smilling Ape"  like="21,5K Likes"  avt={Ellipse65} username="@erricsonsam"  brand="Current Bid"  price="5.6" ></CardNFT>
+          </CARD>
       
           </IMGNFT>
           

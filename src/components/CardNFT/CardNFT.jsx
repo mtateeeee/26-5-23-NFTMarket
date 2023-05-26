@@ -2,8 +2,9 @@ import styled from "styled-components";
 import Ethereum1 from "assets/Ethereum1.svg"
 
 const CardNFTStyled=styled.div`
-padding-left: 32px;
+padding: 10px;
 display: flex;
+
 .Cardimg{
     width: 324px;
     height: 196px;
@@ -22,8 +23,6 @@ const Name=styled.div`
     display: flex;
     padding-top: 35px;
     padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
     justify-content: space-between;
     align-items: center;
 `
@@ -57,13 +56,12 @@ const IMG=styled.div`
     display: flex;
     gap:10px;
     align-items: center;
-    padding-left: 25px;
+    
 `
 const BRAND=styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
     padding-bottom: 15px;
 `
 const P3=styled.div`
